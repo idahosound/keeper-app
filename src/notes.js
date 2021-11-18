@@ -22,6 +22,18 @@ const notes = [
     title: "Hardware vs. Software",
     content:
       "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
+  },
+  {
+    key: 5,
+    title: "Cup",
+    content:
+      "How do you spell cup? See you pee!"
+  },
+  {
+    key: 6,
+    title: "Drummers",
+    content:
+      "How do you know when the stage is level? When the drummer is drooling from both sides of his mouth."
   }
 ];
 
