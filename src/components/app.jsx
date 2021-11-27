@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Header from "./header";
+import CreateArea from "./create-area";
 import Footer from "./footer";
 import Note from "./note";
 
@@ -12,6 +13,7 @@ function App() {
     return (
         <div>
             <Header />
+            <CreateArea />
             {notes.map(thisNote => (
                 <Note
                     key={thisNote.key}
