@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./header";
 import Footer from "./footer";
 import Note from "./note";
@@ -6,6 +6,9 @@ import Note from "./note";
 import { isNotEmittedStatement } from "typescript";
 
 function App() {
+
+    const [notes, setNotes] = useState([]);
+
     return (
         <div>
             <Header />
